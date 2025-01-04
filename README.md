@@ -1,7 +1,9 @@
 # Using XGBoost Model for Predicting Titanic Passenger Survival
 ## Project Overview
 This project uses machine learning to analyze Titanic passenger data and predict survival outcomes. It includes preprocessing, handling missing values, and applying models like ***XBoost***, ***KNN***, and ***Decision Tree***. Models are evaluated and compared using metrics to identify the most effective algorithm for the dataset.
-Table of Contents
+
+## Table of Contents
+
 [1- Introduction](#1--introduction)
 
 [2- Problem Definition](#2--problem-definition)
@@ -32,11 +34,13 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
 **Source:** [Kaggle's Titanic Dataset](https://www.kaggle.com/competitions/titanic/data?select=train.csv)
 
 **Features :**
+
 •	**Demographic:** Age, Sex
 •	**Socioeconomic:** Pclass, Fare
 •	**Family:** SibSp (siblings/spouses), Parch (parents/children)
 •	**Travel:** Embarked, Ticket, Cabin
 •	**Target Variable:** Survived (0 = Not Survived, 1 = Survived)
+
 **Data Characteristics:**
 •	**Rows:** 891
 •	**Columns:** 12 (reduced after preprocessing)
@@ -75,6 +79,7 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
  
 ### Overfitting Addressed :
 •	Hyperparameter tuning reduced the training-test accuracy gap.
+
 •	Before Tuning
 
   ![Before Tuning](https://github.com/user-attachments/assets/7acea44d-027c-49dd-b5d9-3b0de3f0eed3)
