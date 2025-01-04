@@ -74,11 +74,17 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
 
 ## 6- Evaluation Metrics
 **Models were evaluated based on :**
+
 •	Accuracy
+
 •	Precision
+
 •	Recall
+
 •	F1-Score
+
 •	AUC-ROC
+
 ## 7- Results
 ### Best Model :
 •	XGBoost outperformed others with balanced precision and recall.
