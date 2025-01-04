@@ -4,7 +4,7 @@ This project uses machine learning to analyze Titanic passenger data and predict
 
 ## Table of Contents
 
-[1. Introduction](#1-.-introduction)
+[1- Introduction](#1--introduction)
 
 [2- Problem Definition](#2--problem-definition)
 
@@ -25,7 +25,7 @@ This project uses machine learning to analyze Titanic passenger data and predict
 [10- References](#10--references)
 
 ________________________________________
-## 1. Introduction
+## 1- Introduction
 The 1912 Titanic disaster, one of the most infamous maritime tragedies, resulted in significant loss of life. This project leverages a historical dataset containing details about Titanic passengers, such as age, gender, ticket class, and survival status. The objective is to predict passenger survival using machine learning techniques. The project demonstrates how predictive analytics can provide meaningful insights into historical events by understanding patterns and relationships within the dataset.
 ## 2- Problem Definition
 ### The task is a binary classification problem: 
