@@ -4,7 +4,7 @@ This project uses machine learning to analyze Titanic passenger data and predict
 
 ## Table of Contents
 
-[1. Introduction](#1--introduction)
+[1. Introduction](#1-.-introduction)
 
 [2- Problem Definition](#2--problem-definition)
 
