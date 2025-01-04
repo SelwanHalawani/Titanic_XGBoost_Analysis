@@ -36,14 +36,21 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
 **Features :**
 
 •	**Demographic:** Age, Sex
+
 •	**Socioeconomic:** Pclass, Fare
+
 •	**Family:** SibSp (siblings/spouses), Parch (parents/children)
+
 •	**Travel:** Embarked, Ticket, Cabin
+
 •	**Target Variable:** Survived (0 = Not Survived, 1 = Survived)
 
 **Data Characteristics:**
+
 •	**Rows:** 891
+
 •	**Columns:** 12 (reduced after preprocessing)
+
 ## 4- Feature Engineering
 ### Handling Missing Values :
 •	**Age & Fare:** Median imputation.
@@ -58,9 +65,13 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
 ### Balancing Data :
 •	Class weights were used to address the imbalance in the target variable, ensuring fair representation of both classes during training
 ## 5- Models and Techniques
+
 •	***XGBoost:*** A gradient boosting framework with hyperparameter tuning (GridSearchCV).
+
 •	***K-Nearest Neighbors (KNN):*** Distance-based classification with k=5.
+
 •	***Decision Tree:*** Hierarchical splitting for predictions.
+
 ## 6- Evaluation Metrics
 **Models were evaluated based on :**
 •	Accuracy
