@@ -53,17 +53,29 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
 
 ## 4- Feature Engineering
 ### Handling Missing Values :
+
 •	**Age & Fare:** Median imputation.
+
 •	**Embarked:** Mode imputation.
+
 ### Encoding Categorical Variables :
+
 •	**Sex:** Binary encoding.
+
 •	**Embarked:** One-hot encoding.
+
 ### Irrelevant Features Removed :
+
 •	**Passengerld**, **Name**, **Ticket**, **Cabin**.
+
 ### Scaling :
+
 •	StandardScaler applied to numerical features
+
 ### Balancing Data :
+
 •	Class weights were used to address the imbalance in the target variable, ensuring fair representation of both classes during training
+
 ## 5- Models and Techniques
 
 •	***XGBoost:*** A gradient boosting framework with hyperparameter tuning (GridSearchCV).
@@ -107,7 +119,9 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
   ![After Tuning](https://github.com/user-attachments/assets/eadaaaa1-7e1f-4dc2-8730-ff8ef002ca24)
 
 ### Performance Highlights :
+
 •	Improved generalization
+
 •	Balanced class predictions with class weights
 
   ![Balancing](https://github.com/user-attachments/assets/a0cb63d1-97b2-4853-87d0-f4e5d7c0d172)
@@ -115,15 +129,24 @@ predicting whether a passenger survived (1) or did not survive (0) based on vari
  
 ## 8- Challenges
 ### Handling Missing Data:
+
 •	Required manual imputation despite XGBoost's default capabilities.
+
 ### Overfitting:
+
 •	Addressed via hyperparameter tuning (e.g., regularization techniques).
+
 ### Class Imbalance:
+
 •	Managed using class weights for improved model robustness.
+
 ## 9- Conclusion
 The study demonstrated the effectiveness of machine learning in predictive tasks. ***XGBoost*** emerged as the superior model, achieving high accuracy and generalization.
 ## 10- References
 **Kaggle Titanic Dataset:** [Kaggle's Titanic Dataset](https://www.kaggle.com/competitions/titanic/data?select=train.csv)
+
 **Key Publications:**
+
 •	"***XGBoost:*** A Scalable Tree Boosting System" - Chen & Guestrin, 2016
+
 •	Scikit-learn Documentation
